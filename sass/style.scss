@@ -1,0 +1,19 @@
+$header-font:'Lora', serif;;
+$primary-Fontcolor: #7fff00;
+$text-font: 'Source Sans Pro', sans-serif;
+
+.background{
+  background-color: rgba(0, 0, 0, 0.72);
+  .container-fluid{
+      .col-md-12{
+        .header {
+          font-family: $header-font;
+          color: $primary-Fontcolor;
+        }
+        .text{
+          font-family: $text-font;
+          color: $primary-Fontcolor;
+      }
+    }
+  }
+}
